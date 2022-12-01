@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS files/style5.css">
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form action="successfulRegistration.html" class="form-outer" method="GET">
+       <fieldset>
+           <legend>Personal Information</legend>
+           <div class="form-row">
+                <label for="fName">First Name</label>
+                <input type="text" name="firstname" id="fName" value="Bharadwaj" disabled maxlength="3">
+            </div>
+            <div class="form-row">
+                    <label for="lName">Last Name</label>
+                    <input type="text" name="lastname" id="lName" placeholder="Last Name">
+            </div>
+            <div class="form-row">
+                    <label for="uName">Username</label>
+                    <input type="text" name="username" id="uName">
+            </div>
+            <div class="form-row">
+                    <label for="email">Email Id</label>
+                    <input type="email" name="emailid" id="email">
+            </div>
+                <div class="form-row">
+                    <label for="phone">Enter the Phone Number</label>
+                    <input type="number" name="phoneNumber" id="phone">
+            </div>
+            <div class="form-row">
+                    <label for="color">Choose your favorite color</label>
+                    <input type="color" name="selectcolor" id="color">
+            </div>
+            <div class="form-row">
+                    <label for="dob">Enter the DOB</label>
+                    <input type="week" name="dob" id="dob">
+            </div>
+            <div class="form-row">
+                    <label for="pic">Upload your Pic</label>
+                    <input type="file" name="pic" id="pic">
+            </div>
+            <div class="form-row">
+                    <label for="gender">Gender</label>
+                    male: <input type="radio" name="gender" id="male">
+                    female: <input type="radio" name="gender" id="female">
+                    Others: <input type="radio" name="gender" id="others">
+            </div>
+            <div class="form-row">
+                    <label for="range">Select the range</label>
+                    <input type="range" name="range" id="range">
+            </div>
+            <div class="form-row">
+                    <label for="pwd">Password</label>
+                    <input type="password" name="password" id="pwd">
+            </div>
+            <div class="form-row">
+                    <label for="confpwd">Confirm Password</label>
+                    <input type="password" name="confirmpwd" id="confpwd">
+            </div>
+       </fieldset>
+       <fieldset class="interests">
+           <legend>Personal Interests</legend>
+           <div class="form-col">
+                <label for="read">Reading Books</label>
+                <input type="checkbox" name="" id="read">
+            </div>
+            <div class="form-col">
+                <label for="read">Surfing on Social Media</label>
+                <input type="checkbox" name="" id="read">
+            </div>
+            <div class="form-col">
+                <label for="read">Playing Games</label>
+                <input type="checkbox" name="" id="read">
+            </div>
+            <div class="form-col">
+                <label for="read">Dancing</label>
+                <input type="checkbox" name="" id="read">
+            </div>
+            <div class="form-col">
+                <label for="read">Singing</label>
+                <input type="checkbox" name="" id="read">
+            </div>
+            <div class="form-col">
+                <label for="read">Exercises</label>
+                <input type="checkbox" name="" id="read">
+            </div>
+       </fieldset>
+       <fieldset>
+           <legend>Contact Information</legend>
+           <div class="form-row">
+                <label for="add1">Address Line 1</label>
+                <input type="text" name="" id="add1" placeholder="Address Line 1">
+            </div>
+            <div class="form-row">
+                <label for="add2">Address Line 2</label>
+                <input type="text" name="" id="add2">
+            </div>
+            <div class="form-row">
+                <label for="city">City</label>
+                <select name="" id="city" multiple>
+                    <option value="sel">Select city</option>
+                    <option value="blr">Bangalore</option>
+                    <option value="tum">Tumkur</option>
+                    <option value="ubl">Hubli</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <label for="cars">Cars</label>
+                <select name="" id="cars">
+                    <optgroup label="Huendai">
+                        <option value="creta">Creta</option>
+                        <option value="verna">Verna</option>
+                        <option value="i20">i20</option>
+                    </optgroup>
+                    <optgroup label="Maruthi">
+                        <option value="swift">Swift</option>
+                        <option value="brezza">Brezza</option>
+                        <option value="i20">i20</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="form-col">
+                <label for="read">Reading</label>
+                <input type="checkbox" name="" id="read">
+            </div>
+       </fieldset>
+       <fieldset>
+           <legend>
+               Description
+           </legend>
+           <div class="form-row">
+                <label for="textdesc">Enter about yourself</label>
+                <textarea name="" id="textdesc" cols="50" rows="5"></textarea>
+           </div>
+       </fieldset>
+       <div class="form-row">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+       </div>
+
+    </form>
+  </body>
+</html>
